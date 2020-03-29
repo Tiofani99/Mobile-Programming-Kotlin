@@ -21,7 +21,7 @@ files:
       offset: 156
     initialized_from_dependency: false
     possible_answer: if (number > 15) break
-    selected: false
+    selected: true
     status: Unchecked
   - offset: 203
     length: 13
@@ -31,7 +31,7 @@ files:
       offset: 203
     initialized_from_dependency: false
     possible_answer: val result = number * (number + 10)
-    selected: false
+    selected: true
     status: Unchecked
   text: |-
     fun main() {

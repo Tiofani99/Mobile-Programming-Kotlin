@@ -14,6 +14,13 @@ fun main() {
 
 fun calculateResult(valueA: Int, valueB: Int, valueC: Int?): Int {
     // TODO
-    val result = 0
+
+    var result = 0
+    result = if(valueC == null){
+        valueA + (valueB - 50)
+    }else{
+        valueA + (valueB - valueC)
+    }
+
     return result
 }

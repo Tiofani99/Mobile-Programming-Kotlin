@@ -3,8 +3,8 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 370
-    length: 14
+  - offset: 371
+    length: 131
     placeholder_text: val result = 0
     initial_state:
       length: 14
@@ -20,7 +20,7 @@ files:
           val valueA = valueA
           val valueB = valueB
           val result = valueA + (valueB - (valueC ?: 50))
-    selected: false
+    selected: true
     status: Unchecked
   text: |-
     fun main() {
