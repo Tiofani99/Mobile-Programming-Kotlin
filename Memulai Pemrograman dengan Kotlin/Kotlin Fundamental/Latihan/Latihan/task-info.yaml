@@ -3,8 +3,8 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 371
-    length: 131
+  - offset: 366
+    length: 68
     placeholder_text: val result = 0
     initial_state:
       length: 14
