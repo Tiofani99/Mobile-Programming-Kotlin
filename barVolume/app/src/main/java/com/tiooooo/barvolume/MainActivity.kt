@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var tvResult: TextView
 
     companion object {
-        private const val STATE_RESULT = "resultt"
+        private const val STATE_RESULT = "result"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
