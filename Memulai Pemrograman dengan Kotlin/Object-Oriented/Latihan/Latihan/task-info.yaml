@@ -3,8 +3,8 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 159
-    length: 19
+  - offset: 493
+    length: 21
     placeholder_text: val gippy = Cat("")
     initial_state:
       length: 19
@@ -12,7 +12,7 @@ files:
     initialized_from_dependency: false
     possible_answer: val gippy = Cat("Gippy")
     selected: true
-    status: Unchecked
+    status: Solved
   text: |-
     // TODO 1
     class Cat(private val name: String) {
@@ -42,5 +42,5 @@ files:
     Fungsi getter dipanggil
     Gippy, sleep!
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
