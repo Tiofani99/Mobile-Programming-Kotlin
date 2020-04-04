@@ -14,7 +14,7 @@ files:
     selected: true
     status: Solved
   - offset: 165
-    length: 25
+    length: 22
     placeholder_text: if (false) continue
     initial_state:
       length: 19
@@ -23,7 +23,7 @@ files:
     possible_answer: if (number > 15) break
     selected: true
     status: Solved
-  - offset: 218
+  - offset: 215
     length: 31
     placeholder_text: val result =0
     initial_state:
