@@ -1,6 +1,7 @@
 package com.tiooooo.myintentapp
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
@@ -21,6 +22,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         val btnMoveWithObjIntent: Button = findViewById(R.id.btn_move_with_object)
         btnMoveWithObjIntent.setOnClickListener(this)
+
+        val btnDialPhone:Button = findViewById(R.id.btn_dial_number)
+        btnDialPhone.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
@@ -50,6 +54,12 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                     moveWithObjIntent.putExtra(MoveWithObjectActivity.EXTRA_PERSON,person)
                     startActivity(moveWithObjIntent)
 
+                }
+
+                R.id.btn_dial_number ->{
+                    val phoneNumber = "081234567891"
+                    val dialPhoneIntent = Intent(Intent.ACTION_DIAL, Uri.parse("tel : $phoneNumber"))
+                    startActivity(dialPhoneIntent)
                 }
             }
         }
